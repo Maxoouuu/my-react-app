@@ -1,0 +1,1 @@
+export const Premier = () => <h1>Premier Composant</h1>

@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+/* import logo from './logo.svg'; */
+import React from "react";
+import "./App.css";
+import { Premier } from "./components/Premier";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +19,15 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+
+      <h1>test</h1>
+
+      <React.Fragment></React.Fragment>
+      <label htmlFor="email">email</label>
+      <input typeof="email" id="email"></input>
+
+      <Premier />
     </div>
   );
 }
